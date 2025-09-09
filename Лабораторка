@@ -18,3 +18,18 @@ print("15 // 4 =", f)
 
 g = 15 % 4
 print("15 % 4 =", g)
+
+
+
+#Лабораторная работа #4
+#while
+i=1
+while i <= 5:
+    print (i)
+    i += 1
+
+
+#for
+for i in range(1,6):
+    print(i)
+    
