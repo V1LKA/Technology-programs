@@ -33,3 +33,30 @@ while i <= 5:
 for i in range(1,6):
     print(i)
     
+
+#Лабораторная работа #5
+#1
+lst[1,2,3,4,5]
+
+lst. reverse()
+print(lst)
+
+lst_reversed = lst[::-1]
+print(lst_reversed)
+
+#2
+def list_sort(lst):
+    return sorted(lst, key=abs, reverse=true)
+
+lst=[5,7,3,4,1]
+sorted_lst = list_sort(lst)
+print(sorted_lst)    
+
+#3
+def change(lst):
+    lst[0], lst[-1] = lst[-1], lst[0]
+    return lst
+
+lst = [1,2,3,4,5]
+change_lst = change(lst)
+print(change_lst)
