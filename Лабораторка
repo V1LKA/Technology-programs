@@ -23,6 +23,7 @@ print("15 % 4 =", g)
 
 #Лабораторная работа #4
 #while
+print("выполняет блок кода до тех пор, пока заданное условие истинно (True).")
 i=1
 while i <= 5:
     print (i)
@@ -30,29 +31,36 @@ while i <= 5:
 
 
 #for
+print("цикл, который позволяет перебирать элементы коллекции (такой как список, строка, кортеж) или повторять блок кода заданное количество раз")
 for i in range(1,6):
     print(i)
     
 
 #Лабораторная работа #5
 #1
-lst[1,2,3,4,5]
+print("Дан произвольный список. и его в обратный порядок.")
+lst=[1,2,3,4,5]
 
 lst. reverse()
 print(lst)
 
 lst_reversed = lst[::-1]
+
 print(lst_reversed)
 
 #2
+print("сортирует список чисел по убыванию их абсолютного значения")
+print('[5, 7, 3, 4, 1]')
 def list_sort(lst):
-    return sorted(lst, key=abs, reverse=true)
+    return sorted(lst, key=abs, reverse=True)
 
 lst=[5,7,3,4,1]
 sorted_lst = list_sort(lst)
-print(sorted_lst)    
+print(sorted_lst)   
 
 #3
+print("принимает список и меняет местами его первый и последний элемент")
+print('[1, 2, 3, 4, 5]')
 def change(lst):
     lst[0], lst[-1] = lst[-1], lst[0]
     return lst
